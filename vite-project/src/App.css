@@ -1,0 +1,62 @@
+.App {
+  background-color: #4c58d7;
+  margin: 0;
+  box-sizing: border-box;
+  width: 1200px;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 50px;
+}
+
+.imgLogo {
+  width: 230px;
+}
+
+.imgMenu {
+  width: 75px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 70px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-1 {
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  border-radius: 25px;
+  width: 250px;
+  margin-top: 30px;
+}
+
+.button-2 {
+  background-color: black;
+  color: white;
+  font-size: 22px;
+  border-radius: 25px;
+  width: 400px;
+  margin-top: 30px;
+}
+
+.imgBackground {
+  position: relative;
+  right: -40%;
+  bottom: -40%;
+}
